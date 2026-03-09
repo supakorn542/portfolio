@@ -198,7 +198,14 @@ export default function Portfolio() {
 
                 <div className="flex gap-4">
                   <a
-                    href="https://github.com/supakorn542"
+                    href="https://github.com/supakorn542/task-craft-fe"
+                    target="_blank"
+                    className="hover:text-blue-600 transition-colors"
+                  >
+                    <LuGithub size={22} />
+                  </a>
+                  <a
+                    href="https://github.com/supakorn542/task-craft-be"
                     target="_blank"
                     className="hover:text-blue-600 transition-colors"
                   >
@@ -246,7 +253,7 @@ export default function Portfolio() {
 
                 <div className="flex gap-4">
                   <a
-                    href="https://github.com/supakorn542"
+                    href="https://github.com/supakorn542/Project-cafe"
                     target="_blank"
                     className="hover:text-blue-600 transition-colors"
                   >
@@ -323,9 +330,7 @@ export default function Portfolio() {
             <LuMail size={20} />
             <span>supakorn.drcg@gmail.com</span>
           </a>
-          <a
-            className="flex items-center gap-2 hover:text-black transition-colors"
-          >
+          <a className="flex items-center gap-2 hover:text-black transition-colors">
             <LuPhone size={20} />
             <span>08-3759-5256</span>
           </a>
